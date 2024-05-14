@@ -6,3 +6,7 @@ members = [
     "pyth-sdk-solana/test-contract",
     "examples/sol-contract"
 ]
+
+[workspace.dependencies]
+borsh = "0.9.1"
+borsh-derive = "0.9.1"

@@ -11,8 +11,8 @@ no-entrypoint = []
 pyth-sdk-solana = { path = "../", version = "0.10.0" }
 solana-program = ">= 1.10, <= 1.16"
 bytemuck = "1.7.2"
-borsh = "0.10.3"
-borsh-derive = "0.10.3"
+borsh = { workspace = true }
+borsh-derive = { workspace = true }
 
 [dev-dependencies]
 solana-program-test = ">= 1.10, <= 1.16"
